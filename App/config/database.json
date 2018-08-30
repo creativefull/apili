@@ -1,0 +1,22 @@
+{
+	"dev" : {
+		"driver" : "mongodb",
+		"mongodb" : {
+			"connection" : {
+				"host" : "localhost",
+				"port" : 27017,
+				"db" : "apili"
+			}
+		}
+	},
+	"production" : {
+		"driver" : "mongodb",
+		"mongodb" : {
+			"connection" : {
+				"host" : "localhost",
+				"port" : 27017,
+				"db" : "apili"
+			}
+		}
+	}
+}
