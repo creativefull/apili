@@ -18,6 +18,7 @@ module.exports = exports = function (app) {
     ROUTES FOR USER DEALS
     =====================
     */
+
     app.post('/api/deals/new', Deals.new)
     app.get('/api/deals/list/:uid', Deals.list)
     app.get('/api/deals/:id', Deals.detail)
